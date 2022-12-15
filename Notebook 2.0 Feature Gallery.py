@@ -5,8 +5,8 @@
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC #### Completions as you type
-# MAGIC ![autocomplete](https://github.com/RafiKurlansik/notebook2/blob/main/assets/autocomplete.gif?raw=true)
+# MAGIC ### Autocomplete-as-you-type
+# MAGIC ![autocomplete](https://github.com/RafiKurlansik/notebook2/blob/main/assets/autocomplete2.gif?raw=true)
 
 # COMMAND ----------
 
@@ -20,7 +20,7 @@ import numpy as np
 
 # MAGIC %md 
 # MAGIC #### Variable inspection on mouse hover
-# MAGIC ![var-inspect](https://github.com/RafiKurlansik/notebook2/blob/main/assets/variableinspection.gif?raw=true)
+# MAGIC ![var-inspect](https://github.com/RafiKurlansik/notebook2/blob/main/assets/variable_inspection.gif?raw=true)
 
 # COMMAND ----------
 
@@ -35,11 +35,11 @@ variable
 # MAGIC 
 # MAGIC Code blocks can be collapsed by clicking the arrow icon next to them:
 # MAGIC 
-# MAGIC ![code-folding](https://github.com/RafiKurlansik/notebook2/blob/main/assets/codefolding.gif?raw=true)
+# MAGIC ![code-folding](https://github.com/RafiKurlansik/notebook2/blob/main/assets/code_folding.gif?raw=true)
 # MAGIC 
 # MAGIC Clicking next to a bracket will highlight the corresponding bracket further down in the code:
 # MAGIC 
-# MAGIC ![bracket-matching](https://github.com/RafiKurlansik/notebook2/blob/main/assets/bracketmatching.gif?raw=true)
+# MAGIC ![bracket-matching](https://github.com/RafiKurlansik/notebook2/blob/main/assets/bracket_matching.gif?raw=true)
 
 # COMMAND ----------
 
@@ -86,7 +86,7 @@ m
 # MAGIC %md
 # MAGIC #### Multi-cursor support
 # MAGIC 
-# MAGIC ![multi-cursor-support](https://github.com/RafiKurlansik/notebook2/blob/main/assets/multicursor.gif?raw=true)
+# MAGIC ![multi-cursor-support](https://github.com/RafiKurlansik/notebook2/blob/main/assets/multi_cursor.gif?raw=true)
 # MAGIC 
 # MAGIC Monaco supports multiple cursors for fast simultaneous edits. You can add secondary cursors (rendered thinner) with `Alt+Click` on Windows. Each cursor operates independently based on the context it sits in. A common way to add more cursors is with `⌥⌘↓` or `⌥⌘↑` that insert cursors below or above. ([source](https://code.visualstudio.com/Docs/editor/codebasics#_multiple-selections-multicursor))
 
@@ -95,16 +95,14 @@ m
 # Place your cursor on line 2, then press option+command+down ( ⌥⌘↓ ) to create additional cursors on lines 3 and 4
 
 
-
-
 # COMMAND ----------
 
 # MAGIC %md 
 # MAGIC #### Column (box) selection
 # MAGIC 
-# MAGIC ![boxselection](https://github.com/RafiKurlansik/notebook2/blob/main/assets/columnselection.gif?raw=true)
+# MAGIC ![boxselection](https://github.com/RafiKurlansik/notebook2/blob/main/assets/column_selection.gif?raw=true)
 # MAGIC 
-# MAGIC Place the cursor in one corner and then hold Shift+Alt (or Shift+option on Mac) while dragging to the opposite corner. ([source](https://code.visualstudio.com/Docs/editor/codebasics#_column-box-selection))
+# MAGIC Place the cursor in one corner and then hold `Shift+Alt` (or `Shift+option` on Mac) while dragging to the opposite corner. ([source](https://code.visualstudio.com/Docs/editor/codebasics#_column-box-selection))
 
 # COMMAND ----------
 
@@ -132,10 +130,13 @@ PassengerId,Name,Sex,Age,SibSp
 # MAGIC %md
 # MAGIC #### Run selected text
 # MAGIC 
-# MAGIC ![run-selected](https://github.com/RafiKurlansik/notebook2/blob/main/assets/runselected.gif?raw=true)
+# MAGIC Run highlighted text with `Shift + Control + Enter`:
+# MAGIC 
+# MAGIC ![run_selected](https://github.com/RafiKurlansik/notebook2/blob/main/assets/run_selected.gif?raw=true)
 
 # COMMAND ----------
 
+# Give it a try
 print(1)
 print(2)
 print(3)
